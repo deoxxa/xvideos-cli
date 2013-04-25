@@ -1,0 +1,26 @@
+{
+  "name": "xvideos-cli",
+  "version": "0.0.0",
+  "description": "Command line application for searching xvideos.com",
+  "bin": {
+    "xvideos": "./bin/xvideos.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/xvideos-cli.git"
+  },
+  "keywords": [
+    "xvideos",
+    "video",
+    "porn",
+    "search",
+    "cli"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "dependencies": {
+    "optimist": "~0.4.0",
+    "xvideos": "~0.0.1",
+    "jetty": "~0.2.1"
+  }
+}
