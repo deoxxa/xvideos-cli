@@ -32,7 +32,7 @@ XVideos Usage
 You must provide at least one keyword.
 
 ```
-$ xvideos [--sort <sort>] [--datef <date filter>] [--durf <duration filter>] <keywords ...>
+$ xvideos [--sort <sort>] [--date <date filter>] [--duration <duration filter>] <keywords ...>
 ```
 
 **sort**
@@ -41,16 +41,16 @@ The `--sort` option changes how the results from xvideos.com are sorted. The
 available sorting options are `rating`, `relevance`, and `uploaddate`. The
 default is `uploaddate`.
 
-**datef**
+**date**
 
-The `--datef` option adds a "date filter" to the query. The available filters
+The `--date` option adds a "date filter" to the query. The available filters
 are `all`, `today`, `week`, and `month`. The default is `all`.
 
-**durf**
+**duration**
 
-The `--durf` option adds a "duration filter" to the query. The available filters
-are `allduration`, `1-3min`, `3-10min`, and `10min_more`. The default is
-`allduration`.
+The `--duration` option adds a "duration filter" to the query. The available
+filters are `allduration`, `1-3min`, `3-10min`, and `10min_more`. The default
+is `allduration`.
 
 License
 -------
