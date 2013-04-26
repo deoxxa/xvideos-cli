@@ -27,7 +27,7 @@ if (Object.hasOwnProperty.call(argv, "help") || Object.hasOwnProperty.call(argv,
     durf: argv.duration || "allduration",
   };
 
-  tty.text("Searching for ").bold().text(options.k).normal().text("... ");
+  tty.text("Searching for: ").bold().text(options.k).normal().text(" (" + xv.constructSearchUrl(options) + ")\n");
 
   xv.search(options, function(err, res) {
     if (err) {
